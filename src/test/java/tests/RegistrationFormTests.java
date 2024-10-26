@@ -11,7 +11,7 @@ import utils.RandomDataUtil;
 import java.util.List;
 import java.util.stream.Stream;
 
-@Tag("simple")
+@Tag("registration")
 public class RegistrationFormTests extends TestBase {
 
     RegistrationPage registrationPage = new RegistrationPage();
