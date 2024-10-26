@@ -1,6 +1,7 @@
 package tests;
 
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
 import pages.RegistrationPage;
@@ -10,6 +11,7 @@ import utils.RandomDataUtil;
 import java.util.List;
 import java.util.stream.Stream;
 
+@Tag("simple")
 public class RegistrationFormTests extends TestBase {
 
     RegistrationPage registrationPage = new RegistrationPage();
